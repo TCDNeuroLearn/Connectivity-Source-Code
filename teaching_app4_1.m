@@ -67,7 +67,7 @@ load('Data.mat');       %Load in connectivity data and set variables
 handles.ChanLabels=ChannelLabels;
 handles.fs=SampleRate;
 handles.p2pvalues=values;
-handles.EEG=EEG;
+handles.EEG=EEG;%Hello
 handles.ChanLocs=ChannelCoordinates*250;
 handles.aveEEG=squeeze(mean(EEG,2));
 
